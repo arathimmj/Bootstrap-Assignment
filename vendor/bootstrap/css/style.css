@@ -1,0 +1,42 @@
+h1 {
+	font-family: Anton;
+}
+#demo {
+	margin-top: 80px;
+}
+.jumbotron {
+	margin-top: 20px;
+	font-family: Pacifico;
+}
+/*.heroUnit {
+		background-image: url("../../images/collage.jpg");
+		height: 700px;
+		padding-top: 120px;
+		font-family: Pacifico;
+		width: 100%;
+}*/
+mark {
+		background-color: #e6e6e6;
+		padding: 0;
+		line-height: 2;
+}
+/*@media (min-width: 1330px) {
+	.heroUnit {
+		font-size: 67px;
+	}
+}
+@media (max-width: 1330px){
+	.heroUnit {
+		font-size: 55px;
+	}
+}
+@media (max-width: 1190px) {
+	.heroUnit {
+		font-size: 60px;
+		height:1000px;
+	}
+}
+@media (max-width: 1010px) {
+	.heroUnit {
+		height:1000px;
+}*/
