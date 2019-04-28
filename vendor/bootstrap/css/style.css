@@ -6,37 +6,44 @@ h1 {
 }
 .jumbotron {
 	margin-top: 20px;
+	font-size: 67px;
 	font-family: Pacifico;
+	font-size: 40px;
 }
-/*.heroUnit {
-		background-image: url("../../images/collage.jpg");
-		height: 700px;
-		padding-top: 120px;
-		font-family: Pacifico;
-		width: 100%;
-}*/
 mark {
 		background-color: #e6e6e6;
 		padding: 0;
 		line-height: 2;
 }
-/*@media (min-width: 1330px) {
-	.heroUnit {
-		font-size: 67px;
-	}
+.pad-it-30{
+	margin: 30px;
 }
-@media (max-width: 1330px){
-	.heroUnit {
-		font-size: 55px;
-	}
+.head{
+	padding: 18px;
 }
-@media (max-width: 1190px) {
-	.heroUnit {
-		font-size: 60px;
-		height:1000px;
-	}
+.social{
+	display: inline;
 }
-@media (max-width: 1010px) {
-	.heroUnit {
-		height:1000px;
-}*/
+a{
+	letter-spacing: 5px;
+}
+#row{
+	width: 94%;
+	margin: 40px;
+}
+.nameAuthor {
+	font-size: 25px;
+	padding: 10px;
+}
+
+.col-sm-4 img {
+	width: 196px;
+	height: 300px;
+	margin: 20px;
+}
+.list-unstyled{
+	font-size: 30px;
+}
+#store-details {
+	padding: 40px 20px;
+}
