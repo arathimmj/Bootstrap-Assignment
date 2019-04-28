@@ -1,25 +1,9 @@
 h1 {
 	font-family: Anton;
 }
-#demo {
-	margin-top: 80px;
-}
 .jumbotron {
-	margin-top: 20px;
-	font-size: 67px;
 	font-family: Pacifico;
 	font-size: 40px;
-}
-mark {
-		background-color: #e6e6e6;
-		padding: 0;
-		line-height: 2;
-}
-.pad-it-30{
-	margin: 30px;
-}
-.head{
-	padding: 18px;
 }
 .social{
 	display: inline;
@@ -33,13 +17,10 @@ a{
 }
 .nameAuthor {
 	font-size: 25px;
-	padding: 10px;
 }
-
 .col-sm-4 img {
 	width: 196px;
 	height: 300px;
-	margin: 20px;
 }
 .list-unstyled{
 	font-size: 30px;
