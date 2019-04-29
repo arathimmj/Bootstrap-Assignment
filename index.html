@@ -3,253 +3,278 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-  <title>BookWorm</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
-  <link rel="stylesheet" href="vendor/bootstrap/css/style.css">
+	<title>BookWorm</title>
+	<!-- Head CSS Links -->
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
+	<link rel="stylesheet" href="vendor/bootstrap/css/style.css">
 
 </head>
 
 <body>
+	<main>
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+		    <div class="container">
 
-  	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
-	    <div class="container">
+		    	<h1>BookWorm</h1>
 
-	    	<h1>BookWorm</h1>
+		      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		        	<span class="navbar-toggler-icon"></span>
+		      	</button>
 
-	      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-	        	<span class="navbar-toggler-icon"></span>
-	      	</button>
+		      	<div class="collapse navbar-collapse" id="navbarResponsive">
 
-	      	<div class="collapse navbar-collapse" id="navbarResponsive">
+		        	<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Genres</a>
+							<div class="dropdown-menu">
+	    						<a class="dropdown-item" href="#">Fantasy</a>
+							    <a class="dropdown-item" href="#">Paranormal</a>
+							    <a class="dropdown-item" href="#">Sci-Fi</a>
+							    <a class="dropdown-item" href="#">Romance</a>
+							    <a class="dropdown-item" href="#">Thriller</a>
+							    <a class="dropdown-item" href="#">Mystery</a>
+							 </div>
+						</li>
+			        	<li class="nav-item">
+			        		<a class="nav-link" href="#">Buy 'em</a>
+			        	</li>
+			        	<li class="nav-item">
+			        		<a class="nav-link" href="#">Favourites</a>
+			        	</li>
+			        	<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+			        	<li class="nav-items">
+			        		<a class="nav-link" href="#">Sign out</a>
+			        	</li>
+		        	</ul>
 
-	        	<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Genres</a>
-						<div class="dropdown-menu">
-    						<a class="dropdown-item" href="#">Fantasy</a>
-						    <a class="dropdown-item" href="#">Paranormal</a>
-						    <a class="dropdown-item" href="#">Sci-Fi</a>
-						    <a class="dropdown-item" href="#">Romance</a>
-						    <a class="dropdown-item" href="#">Thriller</a>
-						    <a class="dropdown-item" href="#">Mystery</a>
-						 </div>
-					</li>
-		        	<li class="nav-item">
-		        		<a class="nav-link" href="#">Buy 'em</a>
-		        	</li>
-		        	<li class="nav-item">
-		        		<a class="nav-link" href="#">Favourites</a>
-		        	</li>
-		        	<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-		        	<li class="nav-items">
-		        		<a class="nav-link" href="#">Sign out</a>
-		        	</li>
-	        	</ul>
+				</div>
 
+		    </div>
+	  	</nav>
+		<!-- Navigation End -->
+
+	    <!-- Carousel -->
+	    <div id="demo" class="carousel slide mt-5" data-ride="carousel">
+
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+
+			<!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<figure>
+						<img src="vendor/images/carousel1.jpg" alt="Los Angeles">
+					</figure>
+				</div>
+				<div class="carousel-item">
+			  		<figure>
+			  			<img src="vendor/images/carousel2.jpg" alt="Chicago">
+			  		</figure>
+				</div>
+				<div class="carousel-item">
+				  	<figure>
+				  		<img src="vendor/images/carousel3.jpg" alt="New York">
+				  	</figure>
+				</div>
 			</div>
 
-	    </div>
-  	</nav>
-	<!-- Navigation End -->
+			<!-- Left and right controls -->
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+		<!-- Carousel End -->
 
-    <!-- Carousel -->
-    <div id="demo" class="carousel slide mt-5" data-ride="carousel">
-
-		<ul class="carousel-indicators">
-			<li data-target="#demo" data-slide-to="0" class="active"></li>
-			<li data-target="#demo" data-slide-to="1"></li>
-			<li data-target="#demo" data-slide-to="2"></li>
-		</ul>
-
-		<!-- The slideshow -->
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="vendor/images/carousel1.jpg" alt="Los Angeles" width="100%" height="700px">
-			</div>
-			<div class="carousel-item">
-		  		<img src="vendor/images/carousel2.jpg" alt="Chicago" width="100%" height="700px">
-			</div>
-			<div class="carousel-item">
-			  	<img src="vendor/images/carousel3.jpg" alt="New York" width="100%" height="700px">
+		<!-- Jumbotron -->
+		<div class="container">
+			<div class="jumbotron mt-5">
+				<blockquote>
+					"Some books you read. Some books you enjoy.But some books just swallow you up, heart and soul."<div class="move-right">-Anonymous</div>
+				</blockquote>
 			</div>
 		</div>
+		<!-- Jumbotron End-->
 
-		<!-- Left and right controls -->
-		<a class="carousel-control-prev" href="#demo" data-slide="prev">
-			<span class="carousel-control-prev-icon"></span>
-		</a>
-		<a class="carousel-control-next" href="#demo" data-slide="next">
-			<span class="carousel-control-next-icon"></span>
-		</a>
-	</div>
-	<!-- Carousel End -->
+		<div class="container">
+			<!-- Grid structure and modal -->
+			<h2 class="text-center">Checkout the bestsellers!</h2>
 
-	<!-- Jumbotron -->
-	<div class="container">
-		<div class="jumbotron mt-5">
-			<blockquote>
-				"Some books you read. Some books you enjoy.But some books just swallow you up, heart and soul."<div class="move-right">-Anonymous</div>
-			</blockquote>
+			<div class="row" id="row">
+
+				<div class="col-sm-4 text-center">
+					<div class="container">
+		  				<figure>
+		  					<img src="vendor/images/FirstToDie.jpg" alt="First to Die">
+		  				</figure>
+		        		<div class="nameAuthor p-3"><div class="font-weight-bold">"First to Die"</div> by James Patterson</div>
+		  				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+		    				See Description
+		  				</button>
+		  				<summary>
+		  					<div class="modal" id="myModal1">
+			    				<div class="modal-dialog">
+			      					<div class="modal-content">
+			        					<div class="modal-header">
+			          						<h4 class="modal-title">What this book is about:</h4>
+			          						<button type="button" class="close" data-dismiss="modal">&times;</button>
+			        					</div>
+			        					<div class="modal-body">
+			          						A 13-year-old girl searches for her mother, who disappeared after a terrible accident. She gets some help from a psychic and a detective. Together, they find out that sometimes asking questions gets them answers they didn’t want to know…
+			        					</div>
+			                			<div class="modal-footer">
+			          						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        					</div>
+			      					</div>
+			    				</div>
+			  				</div>
+		  				</summary>
+						
+		  			</div>
+				</div>
+
+				<div class="col-sm-4 text-center">
+					<div class="container">
+		  				<figure>
+		  					<img src="vendor/images/Three.jpg" alt="Three">
+		  				</figure>
+		        		<div class="nameAuthor p-3"><div class="font-weight-bold">"Three"</div> by Ted Dekker</div>
+		  				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+		    				See Description
+		  				</button>
+		  				<summary>
+		  					<div class="modal" id="myModal2">
+			    				<div class="modal-dialog">
+			      					<div class="modal-content">
+			        					<div class="modal-header">
+			          						<h4 class="modal-title">What this book is about:</h4>
+			          						<button type="button" class="close" data-dismiss="modal">&times;</button>
+			        					</div>
+			        					<div class="modal-body">
+			          						Four women join together to catch a killer who’s murdering people in terrible ways. This is the first in a series, so if you like this one, you can continue reading about this team of women.
+			        					</div>
+			                			<div class="modal-footer">
+			          						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        					</div>
+			      					</div>
+			    				</div>
+		  					</div>
+		  				</summary>
+		  			</div>
+				</div>
+
+				<div class="col-sm-4 text-center">
+					<div class="container">
+		  				<figure>
+		  					<img src="vendor/images/LeavingTime.jpg" alt="Leaving Time">
+		  				</figure>
+		        		<div class="nameAuthor p-3"><div class="font-weight-bold">"Leaving Time"</div> by Jodi Picoult</div>
+		  				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+		    				See Description
+		  				</button>
+		  				<summary>
+		  					<div class="modal" id="myModal3">
+			    				<div class="modal-dialog">
+			      					<div class="modal-content">
+			        					<div class="modal-header">
+			          						<h4 class="modal-title">What this book is about:</h4>
+			          						<button type="button" class="close" data-dismiss="modal">&times;</button>
+			        					</div>
+			        					<div class="modal-body">
+			          						Imagine that you’re driving your car when a phone rings. The person on the line says you have three minutes to confess your sin to the world, or your car will explode. What do you do? 
+			        					</div>
+			                			<div class="modal-footer">
+			          						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        					</div>
+			      					</div>
+			    				</div>
+			  				</div>
+		  				</summary>
+						
+		  			</div>
+				</div>
+
+			</div> 
+			<!-- Grid structure and modal End-->  
 		</div>
-	</div>
-	<!-- Jumbotron End-->
+		
+	  	<!-- Map Element -->
+	  	<div class="container">
+	  		<div class="row border" id="row">
 
-	<!-- Grid structure and modal -->
-	<h2 class="text-center">Checkout the bestsellers!</h2>
+				<div class="col-sm-6" id="store-details">
+					<h4>Are you a subscriber!?</h4>
+				 	Visit our store and get additional benefits!!
+				</div>
+				<div class="col-sm-6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29742.24895232316!2d-157.85020787104082!3d21.28013004520087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c007270996bbf33%3A0xe61efec80f7e613a!2sHonolulu+Zoo!5e0!3m2!1sen!2sin!4v1556004303845!5m2!1sen!2sin" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+	  	</div>
+		
+		<!-- Map Element End --> 
+	  
+	  <!-- Nav tabs -->
+		<div class="container">
+			<ul class="nav nav-tabs ml-3 mr-3">
 
-	<div class="row" id="row">
+				<li class="nav-item">
+				  <a class="nav-link active" href="#pastEvents">Past Events</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#comingEvents">Coming Events</a>
+				</li>
 
-		<div class="col-sm-4 text-center">
-			<div class="container">
-  				<img src="vendor/images/FirstToDie.jpg" alt="First to Die" class="m-5">
-        		<div class="nameAuthor p-3"><div class="font-weight-bold">"First to Die"</div> by James Patterson</div>
-  				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
-    				See Description
-  				</button>
-				<div class="modal" id="myModal1">
-    				<div class="modal-dialog">
-      					<div class="modal-content">
-        					<div class="modal-header">
-          						<h4 class="modal-title">What this book is about:</h4>
-          						<button type="button" class="close" data-dismiss="modal">&times;</button>
-        					</div>
-        					<div class="modal-body">
-          						A 13-year-old girl searches for her mother, who disappeared after a terrible accident. She gets some help from a psychic and a detective. Together, they find out that sometimes asking questions gets them answers they didn’t want to know…
-        					</div>
-                			<div class="modal-footer">
-          						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        					</div>
-      					</div>
-    				</div>
-  				</div>
-  			</div>
+			</ul>
+
+		  <!-- Tab panes -->
+			<div class="tab-content border mb-3 ml-3 mr-3">
+				<div id="pastEvents" class="container tab-pane active"><br>
+
+				  <h2>Past events</h2>
+
+				  <h5>Bring Your Own Book(BYOB) : 20th April, 2019</h5>
+				  <p>A gathering of almost 80 people to discuss books, authors, trends in lastest books etc.</p><br>
+
+				  <h5>Workshop on publishing : 13th April, 2019</h5>
+				  <p>Arpita Khanna captured the attention on her as she took an interactive and engaging session on the basics of publishing.</p>
+
+				</div>
+				<div id="comingEvents" class="container tab-pane fade"><br>
+
+				  <h2>Coming events</h2>
+
+				  <h5>Workshop - Writing your first book : 23rd May, 2019</h5>
+				  <p>Be the part of a selected few to know how t write your first book. Limited entry. Seats filling out fast!!</p><br>
+
+				</div>
+			</div>
 		</div>
-
-		<div class="col-sm-4 text-center">
-			<div class="container">
-  				<img src="vendor/images/Three.jpg" alt="Three" class="m-5">
-        		<div class="nameAuthor p-3"><div class="font-weight-bold">"Three"</div> by Ted Dekker</div>
-  				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
-    				See Description
-  				</button>
-				<div class="modal" id="myModal2">
-    				<div class="modal-dialog">
-      					<div class="modal-content">
-        					<div class="modal-header">
-          						<h4 class="modal-title">What this book is about:</h4>
-          						<button type="button" class="close" data-dismiss="modal">&times;</button>
-        					</div>
-        					<div class="modal-body">
-          						 Four women join together to catch a killer who’s murdering people in terrible ways. This is the first in a series, so if you like this one, you can continue reading about this team of women.
-        					</div>
-                			<div class="modal-footer">
-          						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        					</div>
-      					</div>
-    				</div>
-  				</div>
-  			</div>
-		</div>
-
-		<div class="col-sm-4 text-center">
-			<div class="container">
-  				<img src="vendor/images/LeavingTime.jpg" alt="Leaving Time" class="m-5">
-        		<div class="nameAuthor p-3"><div class="font-weight-bold">"Leaving Time"</div> by Jodi Picoult</div>
-  				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
-    				See Description
-  				</button>
-				<div class="modal" id="myModal3">
-    				<div class="modal-dialog">
-      					<div class="modal-content">
-        					<div class="modal-header">
-          						<h4 class="modal-title">What this book is about:</h4>
-          						<button type="button" class="close" data-dismiss="modal">&times;</button>
-        					</div>
-        					<div class="modal-body">
-          						Imagine that you’re driving your car when a phone rings. The person on the line says you have three minutes to confess your sin to the world, or your car will explode. What do you do? 
-        					</div>
-                			<div class="modal-footer">
-          						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        					</div>
-      					</div>
-    				</div>
-  				</div>
-  			</div>
-		</div>
-
-	</div> 
-	<!-- Grid structure and modal End-->  
-
-  	<!-- Map Element -->
-	<div class="row" id="row">
-
-		<div class="col-sm-3"></div>
-		<div class="col-sm-3" id="store-details">
-			<h4>Are you a subscriber!?</h4>
-		 	Visit our store and get additional benefits!!
-		</div>
-		<div class="col-sm-3">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29742.24895232316!2d-157.85020787104082!3d21.28013004520087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c007270996bbf33%3A0xe61efec80f7e613a!2sHonolulu+Zoo!5e0!3m2!1sen!2sin!4v1556004303845!5m2!1sen!2sin" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
-		<div class="col-sm-3"></div>
-
-	</div>
-	<!-- Map Element End --> 
-  
-  <!-- Nav tabs -->
-	<ul class="nav nav-tabs ml-3 mr-3">
-
-		<li class="nav-item">
-		  <a class="nav-link active" href="#pastEvents">Past Events</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link" href="#comingEvents">Coming Events</a>
-		</li>
-
-	</ul>
-
-  <!-- Tab panes -->
-	<div class="tab-content border mb-3 ml-3 mr-3">
-		<div id="pastEvents" class="container tab-pane active"><br>
-
-		  <h2>Past events</h2>
-
-		  <h5>Bring Your Own Book(BYOB) : 20th April, 2019</h5>
-		  <p>A gathering of almost 80 people to discuss books, authors, trends in lastest books etc.</p><br>
-
-		  <h5>Workshop on publishing : 13th April, 2019</h5>
-		  <p>Arpita Khanna captured the attention on her as she took an interactive and engaging session on the basics of publishing.</p>
-
-		</div>
-		<div id="comingEvents" class="container tab-pane fade"><br>
-
-		  <h2>Coming events</h2>
-
-		  <h5>Workshop - Writing your first book : 23rd May, 2019</h5>
-		  <p>Be the part of a selected few to know how t write your first book. Limited entry. Seats filling out fast!!</p><br>
-
-		</div>
-	</div>
-  <!-- Nav tabs End -->
-
+		<!-- Nav tabs End -->
+	</main>
+  	
 	<!-- Footer -->
 	<footer class="page-footer font-small special-color-dark pt-4">
 

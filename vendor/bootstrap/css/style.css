@@ -1,3 +1,6 @@
+.navbar a{
+	letter-spacing: 1.5px;
+}
 h1 {
 	font-family: Anton;
 }
@@ -11,12 +14,21 @@ h1 {
 a{
 	letter-spacing: 5px;
 }
+.carousel-item img {
+	width:100%;
+	height:800px
+}
 #row{
 	width: 94%;
-	margin: 40px;
+	/*margin: 40px 0;*/
+	margin: 20px;
+	text-align: center;
 }
 .nameAuthor {
 	font-size: 25px;
+}
+.col-sm-4 {
+	margin:20px 0;
 }
 .col-sm-4 img {
 	width: 196px;
@@ -26,5 +38,5 @@ a{
 	font-size: 30px;
 }
 #store-details {
-	padding: 40px 20px;
+	padding: 40px 0;
 }
