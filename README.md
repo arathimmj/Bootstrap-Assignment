@@ -6,3 +6,8 @@ This is an Bootstrap based website made as part of an assignment. This is a resp
 
 * **Arathi**
 
+## To see the website
+
+The site is published at the following link : https://arathimmj.github.io/Bootstrap-Assignment/
+
+
